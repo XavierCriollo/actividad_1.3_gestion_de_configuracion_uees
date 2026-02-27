@@ -1,11 +1,9 @@
 print("Hola mundo")
 print("Los saluda los alumnos de la UEES")
 
-#Operaciones matematicas
-a = 25
-b = 13
+# rama B
+def mostrar_mensaje():
+    print('funcionalidad_b_version_1')
 
-print(a + b)
-print(a - b)
-
-print("Proyecto finalizado")
+if __name__ == '__main__':
+    mostrar_mensaje()
